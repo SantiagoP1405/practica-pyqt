@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>873</width>
+    <height>743</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>150</y>
+     <width>411</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+         <widget class="QLineEdit" name="txt_name_file">
+          <property name="maximumSize">
+           <size>
+            <width>137</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;l&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="lbl_name_file">
+          <property name="text">
+           <string>Nombre del archivo</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLineEdit" name="txt_write"/>
+      </item>
+      <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+       <widget class="QLabel" name="lbl_write">
+        <property name="text">
+         <string>Texto a escribir</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLineEdit" name="txt_line"/>
+      </item>
+      <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+       <widget class="QLabel" name="lbl_lines">
+        <property name="text">
+         <string>Número de líneas del archivo</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item alignment="Qt::AlignHCenter">
+     <widget class="QPushButton" name="btn_analize">
+      <property name="text">
+       <string>Analizar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="lbl_vocals">
+          <property name="text">
+           <string>Número de vocales</string>
+          </property>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+         <widget class="QPlainTextEdit" name="txt_vocals">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="lbl_consonants">
+          <property name="text">
+           <string>Número de consonantes</string>
+          </property>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+         <widget class="QPlainTextEdit" name="txt_consonants"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
